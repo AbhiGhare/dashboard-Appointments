@@ -1,0 +1,51 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    background-color: #fbfaff;
+
+    .title{
+        font-size: 18px;
+        font-weight: 600;
+
+        p{
+            margin-bottom: 10px !important;
+        }
+
+        .line{
+            width: 50px;
+            height: 4px;
+            background-color: #7575ff;
+            border-radius: 5px;
+        }
+    }
+    .tableInfo{
+
+        .top{
+            display: flex;
+            float: right;
+            margin-bottom: 20px;
+            .fc{
+                width: 200px !important;
+                margin-right: 20px;
+            }
+            button {
+                width: 140px;
+                // height: 30px;
+                background-color: #7575ff;
+                border: 1px solid #7575ff;
+                border-radius: 5px;
+                color: white;
+                font-size: 15px;
+                padding: 5px;
+            }
+        }
+        .bottom{
+
+            table{
+                border: 1px solid;
+                border-color: rgb(210, 208, 208);
+            }
+        }
+    }
+}

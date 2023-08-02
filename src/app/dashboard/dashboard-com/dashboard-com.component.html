@@ -1,0 +1,267 @@
+<div class="parent">
+    <!-- <header>
+        <div class="left">
+            <span class="icon-logo"></span>
+            <p>APPOINTMENT PLANNER</p>
+        </div>
+        <div class="right">
+            <span class="icon-logout"></span>
+            <p>LogOut</p>
+            <div style="width: 25px; height: 25px; position: relative;">
+                <img src="../../../assets/icons/Mark.svg" alt="" style="position: absolute; width: 100%;">
+            </div>
+        </div>
+    </header> -->
+    <!-- <app-header></app-header> -->
+    <section>
+        <div id="myDIV">
+          <!-- Total Appointments - Today -->
+            <div class="item1 item a">
+                <p>Total Appointments - Today</p>
+                <span class="collection">
+                    
+                    <img src="../../../assets/icons/Today_Widget.svg" alt="">
+                    
+                    <span class="txt">4</span>
+                </span>
+            </div>
+
+            <!-- Total Appointments - This Week -->
+            <div class="item2 item a">
+                <p>Total Appointments - This Week</p>
+                <span class="collection">
+                    
+                    <img src="../../../assets/icons/ThisWeek_Widget.svg" alt="">
+                    
+                    <span class="txt">23</span>
+                </span>
+            </div>
+
+            <!-- Recent activity -->
+            <div class="item3 a">
+                <div class="top">
+                    <span>Recent Activities</span>
+                </div>
+                <div class="bottom">
+                    <ul>
+                        <li>
+                          <p>Added New Appointment</p>
+                            <span>
+                              - Joseph for consultation on 7/3/2023, 4:00:00 PM with Dr.Molli Cobb
+                              5 mins ago
+                            </span>
+                        </li>
+                        <li>
+                          <p>Added New Appointment</p>
+                            <span>
+                              - Joseph for consultation on 7/3/2023, 4:00:00 PM with Dr.Molli Cobb
+                              5 mins ago
+                            </span>
+                        </li>
+                        <li>
+                          <p>Added New Appointment</p>
+                            <span>
+                              - Joseph for consultation on 7/3/2023, 4:00:00 PM with Dr.Molli Cobb
+                              5 mins ago
+                            </span>
+                        </li>
+                        <li>
+                          <p>Added New Appointment</p>
+                            <span>
+                              - Joseph for consultation on 7/3/2023, 4:00:00 PM with Dr.Molli Cobb
+                              5 mins ago
+                            </span>
+                        </li>
+                        <li>
+                          <p>Added New Appointment</p>
+                            <span>
+                              - Joseph for consultation on 7/3/2023, 4:00:00 PM with Dr.Molli Cobb
+                              5 mins ago
+                            </span>
+                        </li>
+                        <li>
+                          <p>Added New Appointment</p>
+                            <span>
+                              - Joseph for consultation on 7/3/2023, 4:00:00 PM with Dr.Molli Cobb
+                              5 mins ago
+                            </span>
+                        </li>
+                        <li>
+                          <p>Added New Appointment</p>
+                            <span>
+                              - Joseph for consultation on 7/3/2023, 4:00:00 PM with Dr.Molli Cobb
+                              5 mins ago
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Today's Appointment -->
+            <div class="item4 a">
+                <div class="top">
+                    <span>Today's Appointment</span>
+                    <a href="#">Book Appointments</a>
+                </div>
+                <div class="bottom">
+                    <div >
+  
+                        <table class="table table-hover">
+                          <thead>
+                            <tr>
+                              <th>Time</th>
+                              <th>Name</th>
+                              <th>Doctor Name</th>
+                              <th>Symptoms</th>
+                            </tr>
+                          </thead>
+                          
+                          
+                            <tr>
+                              <td>10:30Am</td>
+                              <td>Milka</td>
+                              <td>Amelia Edwards</td>
+                              <td>Swelling or bruising over a bone, Pain in the injured area</td>
+                              
+                            </tr>
+                            <tr>
+                                <td>10:30Am</td>
+                                <td>Milka</td>
+                                <td>Amelia Edwards</td>
+                                <td>Swelling or bruising over a bone, Pain in the injured area</td>
+                                
+                              </tr>
+                              <tr>
+                                <td>10:30Am</td>
+                                <td>Milka</td>
+                                <td>Amelia Edwards</td>
+                                <td>Swelling or bruising over a bone, Pain in the injured area</td>
+                                
+                              </tr>
+                              <tr>
+                                <td>10:30Am</td>
+                                <td>Milka</td>
+                                <td>Amelia Edwards</td>
+                                <td>Swelling or bruising over a bone, Pain in the injured area</td>
+                                
+                              </tr>
+                              <tr>
+                                <td>10:30Am</td>
+                                <td>Milka</td>
+                                <td>Amelia Edwards</td>
+                                <td>Swelling or bruising over a bone, Pain in the injured area</td>
+                                
+                              </tr>
+                              <tr>
+                                <td>10:30Am</td>
+                                <td>Milka</td>
+                                <td>Amelia Edwards</td>
+                                <td>Swelling or bruising over a bone, Pain in the injured area</td>
+                                
+                              </tr>
+                             
+                         
+                        </table>
+                            </div>
+                      
+                </div>
+            </div>
+            <div class="item5 a">
+              <div class="top">
+                <span>Consultation</span>
+              </div>
+              <div id="chart">
+                <apx-chart
+                  [series]="chartOptions.series"
+                  [chart]="chartOptions.chart"
+                  [xaxis]="chartOptions.xaxis"
+                  [dataLabels]="chartOptions.dataLabels"
+                  [grid]="chartOptions.grid"
+                  [stroke]="chartOptions.stroke"
+                  [title]="chartOptions.title"
+                  [labels]="chartOptions.labels"
+                  [annotations]="chartOptions.annotations"
+
+                  
+                ></apx-chart>
+                </div>
+            </div>
+
+            <!-- Doctor's Availability -->
+            <div class="item6 a">
+              <div class="top">
+                <span>Doctor's Availability</span>
+                <a href="#">View all</a>
+            </div>
+            <div class="bottom">
+              <ul>
+                <li>
+                  <div class="img">
+                    <img src="../../../assets/imgs/NemboLukni.png" alt="">
+                  </div>
+                  <div class="info">
+                    <p>Nemo Lukeni</p>
+                    <span>General Medicine</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="img">
+                    <img src="../../../assets/imgs/NemboLukni.png" alt="">
+                  </div>
+                  <div class="info">
+                    <p>Nemo Lukeni</p>
+                    <span>General Medicine</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="img">
+                    <img src="../../../assets/imgs/NemboLukni.png" alt="">
+                  </div>
+                  <div class="info">
+                    <p>Nemo Lukeni</p>
+                    <span>General Medicine</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="img">
+                    <img src="../../../assets/imgs/NemboLukni.png" alt="">
+                  </div>
+                  <div class="info">
+                    <p>Nemo Lukeni</p>
+                    <span>General Medicine</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="img">
+                    <img src="../../../assets/imgs/NemboLukni.png" alt="">
+                  </div>
+                  <div class="info">
+                    <p>Nemo Lukeni</p>
+                    <span>General Medicine</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="img">
+                    <img src="../../../assets/imgs/NemboLukni.png" alt="">
+                  </div>
+                  <div class="info">
+                    <p>Nemo Lukeni</p>
+                    <span>General Medicine</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="img">
+                    <img src="../../../assets/imgs/NemboLukni.png" alt="">
+                  </div>
+                  <div class="info">
+                    <p>Nemo Lukeni</p>
+                    <span>General Medicine</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            </div>
+          
+          </div>
+    </section>
+</div>

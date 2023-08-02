@@ -1,0 +1,22 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    background-color: #fbfaff;
+    height: 91vh;
+    .title{
+        font-size: 18px;
+        font-weight: 600;
+
+        p{
+            margin-bottom: 10px !important;
+        }
+
+        .line{
+            width: 50px;
+            height: 4px;
+            background-color: #7575ff;
+            border-radius: 5px;
+        }
+    }
+}
